@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Vida - Oncología</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Aquí enlazarás tu archivo CSS -->
+</head>
+<body>
+    <!-- Encabezado y Navegación -->
+    <header>
+        <div class="container">
+            <div id="logo">
+                <h1>Sobre Vida</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#quienes-somos">Quiénes Somos</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#especialistas">Especialistas</a></li>
+                    <li><a href="#testimonios">Testimonios</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="cta-buttons">
+                <a href="#contacto" class="btn">Contacto</a>
+                <a href="#agendar-cita" class="btn">Agendar Cita</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <h2>En Sobre Vida, luchamos junto a ti</h2>
+            <p>Especialistas en Oncología, al servicio de tu bienestar.</p>
+            <a href="#servicios" class="btn">Conoce más</a>
+            <a href="#contacto" class="btn">Agenda tu consulta</a>
+        </div>
+    </section>
+
+    <!-- Secciones Destacadas -->
+    <section id="destacados">
+        <div class="container">
+            <div class="card">
+                <h3>Nuestros Servicios</h3>
+                <p>Explora los tratamientos y cuidados que ofrecemos para nuestros pacientes.</p>
+                <a href="#servicios" class="btn">Ver más</a>
+            </div>
+            <div class="card">
+                <h3>Especialistas en Oncología</h3>
+                <p>Conoce a nuestros médicos especializados en el tratamiento del cáncer.</p>
+                <a href="#especialistas" class="btn">Ver más</a>
+            </div>
+            <div class="card">
+                <h3>Testimonios</h3>
+                <p>Historias de vida de nuestros pacientes que han superado la adversidad.</p>
+                <a href="#testimonios" class="btn">Leer más</a>
+            </div>
+            <div class="card">
+                <h3>Blog</h3>
+                <p>Artículos recientes sobre oncología, consejos y noticias.</p>
+                <a href="#blog" class="btn">Leer más</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Sobre Vida. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #004085;
+    color: white;
+    padding: 10px 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#logo h1 {
+    float: left;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cta-buttons {
+    float: right;
+}
+
+.cta-buttons .btn {
+    color: white;
+    background-color: #28a745;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+#hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#destacados {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    background-color: white;
+}
+
+#destacados .card {
+    background-color: #f8f9fa;
+    padding: 20px;
+    width: 22%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#destacados .card h3 {
+    margin-bottom: 20px;
+}
+
+#destacados .btn {
+    display: inline-block;
+    color: white;
+    background-color: #007bff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
